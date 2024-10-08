@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos</title>
+    <style>
+    
+            body{
+            font-family: 'Pacifico', cursive; /* Fuente divertida */
+            color: #ff69b4; /* Rosa fuerte */
+            text-align: center;
+            margin-bottom: 20px;
+            text-align: center;
+            background-color: pink;
+        }
+    
+        </style>
+</head>
+<body>
+
+     <body onclick="PlayAudio()">
+        <audio id="audio" autoplay controls loop>
+            <source src="audios/lofi.mp3" type= "audio/mpeg">
+            </audio>
+
+    
+    <h1>Formulario de Contacto</h1>
+    
+    <form action="mailto:tuemail@dominio.com" method="post" enctype="text/plain">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre"><br><br>
+        
+        <label for="email">Correo Electrónico:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje"></textarea><br><br>
+        
+        <input type="submit" value="Enviar">
+    </form>
+
+    <a href="proyecto.html">Volver al Inicio</a>
+</body>
+</html>
